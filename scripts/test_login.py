@@ -9,8 +9,8 @@ class TestLoging:
         assert 1
     def test_login_002(self):
         print(2)
-        driver = webdriver.Chrome()
-        driver.get('http://baidu.com')
+        # driver = webdriver.Chrome()
+        # driver.get('http://baidu.com')
         allure.attach("输入", "123", allure.attachment_type.TEXT)
         # allure.attach("截图", driver.get_screenshot_as_png(), allure.attachment_type.PNG)
 
